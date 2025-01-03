@@ -54,7 +54,9 @@ Ensure you have Python 3.x installed on your system. You can download it from [p
 - **Game Logic**: Movement, combination of tiles, and game-over detection implemented using core algorithms.
 
 ## Screenshots
-_Include some screenshots of the gameplay interface to visually represent the game._
+
+![Gameplay](screenshots/2048.png)
+![Gameplay](screenshots/20481.png)
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements:
