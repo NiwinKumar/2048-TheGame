@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(30, 30, 30, 0.8); /* Dark gray with some transparency */
+    color: white;
+    font-family: 'Arial', sans-serif; /* Modern font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+
+#game-container {
+    background-color: rgba(50, 50, 50, 0.8); /* Slightly darker gray for container */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 80px); /* 4 columns, each 80px wide */
+    grid-template-rows: repeat(4, 80px); /* 4 rows, each 80px high */
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+
+.grid-cell {
+    background-color: rgba(80, 80, 80, 0.8); /* Darker gray for cells */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tile-2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.tile-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.tile-8 {
+    background-color: #f2b179;
+    color: #f9f6f2;
+}
+
+.tile-16 {
+    background-color: #f59563;
+    color: #f9f6f2;
+}
+
+.tile-32 {
+    background-color: #f67c5f;
+    color: #f9f6f2;
+}
+
+.tile-64 {
+    background-color: #f65e3b;
+    color: #f9f6f2;
+}
+
+#score-container {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#score-container label{
+    margin-right: 20px;
+}
+
+#new-game-btn {
+    background-color: #8f7a66;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+#new-game-btn:hover {
+    background-color: #7b685a;
+}
+
+#instructions {
+    color: #ddd;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#game-over-window {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
